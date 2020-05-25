@@ -1,0 +1,14 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+from .models import News
+
+
+def homepage(request):
+    return render(request = request,
+                    template_name = "main/home.html",
+                    context={})
+                    
+def newspage(request):
+    return render(request = request,
+                    template_name = "main/news.html",
+                    context={"news": News.objects.all})

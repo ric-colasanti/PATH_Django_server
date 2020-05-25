@@ -1,0 +1,11 @@
+
+{% extends 'main/header.html' %}
+
+{% block content %}
+    {% for n in news %}
+    <div class="card" style="margin-bottom:20px">
+        <div class="card-header">{{n.news_title}}</div>
+        <div class="card-body">{{n.news_content|safe}}</div>
+    </div >
+    {% endfor %}
+{% endblock %}
