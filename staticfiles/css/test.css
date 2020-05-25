@@ -1,0 +1,18 @@
+        :root {
+            --mainDark: #242325;
+            --mainGreen: #c4e538;
+            --mainWhite: #fff;
+            --mainGrey: #2f3640;
+            --mainPink: #fda7df;
+            --mainBlue: #b53471;
+            --mainRed: #6f1e51;
+            --Green: #009432;
+        }
+        @media (max-width: 40em) {
+        .path_bkground{
+            display: none;
+            }
+        }
+        .navbar {
+            background: var(--mainRed);
+        }
