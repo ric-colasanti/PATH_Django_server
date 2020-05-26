@@ -25,7 +25,7 @@ SECRET_KEY = '0ld=+8gj@306h$psdz%j1h+l*8%v5kpoh3uu5wp3md9t-pgisu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dae.wulabs.org']
+ALLOWED_HOSTS = ['dae.wulabs.org','192.168.1.180']
 
 
 # Application definition
